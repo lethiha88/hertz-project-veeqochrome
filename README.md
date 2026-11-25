@@ -131,4 +131,4 @@ Work in `wxt/OrderMgmt-Ext/`. Main sources:
 
 ## License
 
-This project is for internal use. Please ensure compliance with Veeqo's terms of service and USPS usage policies.
+This project is licensed under the MIT License. Please ensure compliance with Veeqo's terms of service and USPS usage policies.
