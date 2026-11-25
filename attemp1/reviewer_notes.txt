@@ -1,0 +1,3 @@
+This project is a Chrome extension for people who fulfill orders in Veeqo. It adds USPS label-manager shortcuts and shipping helpers to the Veeqo workflow, helping operators prepare labels without repeatedly switching between order details and the USPS site.
+
+The original project includes browser UI, content scripts, and optional Veeqo API integration. This archive is intentionally narrower: it contains the daily UPS label utility, which retrieves labels for a selected local date and produces a dated PDF, optionally stamping pages with each shipment's buy time. It is a utility-focused test package, not a complete installable Chrome extension.

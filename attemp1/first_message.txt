@@ -1,0 +1,6 @@
+Implement daily UPS label export for a requested local date, returning that day's UPS labels as a PDF in buy-time order. Preserve existing API behavior, progress reporting, optional timestamp stamping, filename, and result format; keep changes limited to this workflow and its direct dependencies. Done when the existing tests pass and TypeScript compilation succeeds.
+
+Relevant paths within the VeeqoUsps-ChromeStore archive:
+- utils/dailyLabels.ts
+- utils/dailyLabels.test.ts
+- package.json

@@ -1,0 +1,5 @@
+This archive contains the Veeqo daily UPS label utility from the Chrome-extension project. It retrieves shipped orders for a requested local date, identifies eligible UPS shipments, downloads their label PDFs, and returns a combined PDF with shipment details.
+
+The implementation and focused tests are in utils/dailyLabels.ts and utils/dailyLabels.test.ts; package scripts and dependencies are in package.json. Keep changes limited to this workflow and its direct dependencies, preserving existing API behavior, progress reporting, optional buy-time stamping, output filename, and result format.
+
+Review local-date boundaries, pagination, UPS identification, duplicate removal, buy-time ordering, PDF download batching and page order, and explicit error behavior. The archive excludes the extension UI and worker, so do not assume browser UI or worker integration is in scope. The tests and TypeScript compile check should both pass.
